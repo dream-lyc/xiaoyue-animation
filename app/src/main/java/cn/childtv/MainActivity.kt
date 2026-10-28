@@ -364,7 +364,7 @@ class MainActivity : ComponentActivity() {
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.spacedBy(16.dp),
                 ) {
-                    Text("♧  小芽影院", fontSize = 24.sp, fontWeight = FontWeight.Bold, color = TvText)
+                    Text("♧  小约动画", fontSize = 24.sp, fontWeight = FontWeight.Bold, color = TvText)
                     Spacer(Modifier.weight(1f))
                     TvPill(
                         snapshot.policy?.let {

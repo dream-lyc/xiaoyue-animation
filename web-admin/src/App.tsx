@@ -143,7 +143,7 @@ export function App({ api }: { api: AdminApi }) {
     return (
       <div className="login">
         <div className="login-card">
-          <div className="brand">♧ 小芽 · 家长端</div>
+          <div className="brand">♧ 小约动画 · 家长端</div>
           <span className="eyebrow">陪伴每一次成长</span>
           <h1>欢迎回到家庭影院</h1>
           <p>在电脑上整理资源，在电视上安心观看。</p>
@@ -199,7 +199,7 @@ export function App({ api }: { api: AdminApi }) {
   return (
     <div className="shell">
       <aside className="sidebar">
-        <div className="brand">♧ 小芽 · 家长端</div>
+        <div className="brand">♧ 小约动画 · 家长端</div>
         <p className="connection">
           <i /> 家庭电视 / 已连接
         </p>

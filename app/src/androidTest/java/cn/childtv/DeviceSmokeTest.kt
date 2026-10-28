@@ -121,6 +121,6 @@ class DeviceSmokeTest {
         device.pressDPadDown(); device.pressDPadRight(); device.pressDPadCenter()
         assertTrue(device.wait(Until.hasObject(By.pkg("cn.childtv")), 3000))
         device.pressBack()
-        assertTrue(device.wait(Until.hasObject(By.textContains("小芽")), 3000))
+        assertTrue(device.wait(Until.hasObject(By.textContains("小约动画")), 3000))
     }
 }

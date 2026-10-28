@@ -34,7 +34,7 @@ class AdminService : Service() {
         val channel = NotificationChannel("administration", "局域网管理", NotificationManager.IMPORTANCE_LOW)
         getSystemService(NotificationManager::class.java).createNotificationChannel(channel)
         val pending = PendingIntent.getActivity(this, 0, Intent(this, MainActivity::class.java), PendingIntent.FLAG_IMMUTABLE)
-        startForeground(1, Notification.Builder(this, "administration").setContentTitle("小芽影院管理服务运行中").setContentText("仅在可信家庭局域网使用；HTTP 未加密").setSmallIcon(android.R.drawable.ic_menu_manage).setContentIntent(pending).build())
+        startForeground(1, Notification.Builder(this, "administration").setContentTitle("小约动画管理服务运行中").setContentText("仅在可信家庭局域网使用；HTTP 未加密").setSmallIcon(android.R.drawable.ic_menu_manage).setContentIntent(pending).build())
         val starter = Executors.newSingleThreadExecutor()
         starter.execute {
             try {
